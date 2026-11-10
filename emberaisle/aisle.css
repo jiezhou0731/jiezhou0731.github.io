@@ -1,0 +1,14 @@
+:root { --paper: #fbf3e6; --ink: #4a3428; --soft: #8a6a58; --awning: #c9443a; --glow: #f2a84a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: linear-gradient(180deg, #2e2248 0, #6e3a52 140px, var(--paper) 141px); color: var(--ink);
+       font: 16px/1.65 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+.sheet { max-width: 720px; margin: 48px auto; background: #fffaf2; border-radius: 22px; padding: 28px 32px 36px;
+         box-shadow: 0 10px 40px rgba(60, 30, 20, .18); border-top: 10px solid var(--awning); }
+.title { display: flex; align-items: center; gap: 16px; }
+.title img { width: 72px; height: 72px; border-radius: 16px; }
+.title h1 { font-size: 24px; margin: 0; }
+.title small { display: block; color: var(--soft); font-size: 14px; font-weight: 400; }
+h2 { font-size: 17px; color: var(--awning); margin: 26px 0 6px; }
+a { color: #b8572c; }
+.note { color: var(--soft); font-size: 14px; }
+.zh { border-top: 2px dashed #ead8c0; margin-top: 30px; padding-top: 8px; }
