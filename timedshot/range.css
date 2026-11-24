@@ -1,0 +1,12 @@
+/* Timedshot: a printed range card, warm paper on soot */
+html { background: #1a0d07; }
+body { margin: 0; color: #2b1a10; font: 17px/1.6 Georgia, "Times New Roman", serif; }
+header { background: #1a0d07; color: #ffb35c; padding: 28px 6vw 22px; display: grid; grid-template-columns: 64px 1fr; gap: 4px 18px; align-items: center; }
+header img { grid-row: span 2; width: 64px; height: 64px; border-radius: 14px; }
+header b { font: 700 26px/1 "Avenir Next Condensed", "Arial Narrow", sans-serif; letter-spacing: .18em; text-transform: uppercase; }
+header span { font: 13px/1.2 "Avenir Next Condensed", "Arial Narrow", sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #e0603a; }
+main { background: #f6ecdc; max-width: 760px; margin: 0 auto; padding: 30px 6vw 44px; border-top: 6px double #e0603a; }
+h3 { font: 700 14px/1.2 "Avenir Next Condensed", "Arial Narrow", sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #b3361c; margin: 28px 0 4px; }
+dl { margin: 0; } dt { font-weight: 700; margin-top: 16px; } dd { margin: 2px 0 0 0; }
+a { color: #b3361c; }
+footer { color: #8a6a50; font-size: 14px; margin-top: 30px; border-top: 1px dashed #c9a888; padding-top: 10px; }
